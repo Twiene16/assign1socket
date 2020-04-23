@@ -1,0 +1,37 @@
+This simple socket programming using while and if else statement perform below action:-
+
+if client request " hello, who are you?"
+server will reply " hi, my name is ( server ip)"
+
+if client request "  what is your domain?
+server will reply " my domain is fskm.edu.my"
+
+for others request 
+server will reply " i dont know"
+
+++++++++++++++++++++++++++++++++++++++++
+Client side
+++++++++++++++++++++++++++++++++++++++++
+There are predefine respond message can be send to server.
+These selection are using integer.
+For example if client want to send Hello who are you, key in 1 as the selection
+print("++++++++++++ MENU UTAMA ++++++++++++")
+    print("+ 1. Hello who are you             +")
+    print("+ 2. What is your domain?          +")
+    print("+ 3. Who is the web Admin          +")
+    print("+ 4. exit                          +")
+    print("++++++++++++++++++++++++++++++++++++")
+
+Message print by the server based on selection keyin by the client.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+Server side
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+In order to respond to client enquiry, server must keyin the interfger based on 
+predefine respond givem.
+For example, if server reciever Hello who are you, key in integer 1 as the selection
+print("++++++++++++ Message from Client+++++++++++++++++++++")
+print("Type 1 If client send Hello who are you             +")
+print("Type 2 if client send What is your domain?          +")
+print("Type 3 if None of the above                         +")
+print("Type 4 to exit                                      +")
